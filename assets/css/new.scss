@@ -1,0 +1,26 @@
+.social-media-icons{
+    >ul{
+        display: flex;
+        align-items: center;
+        gap: 1.5rem;
+        margin-bottom: 0;
+        li{
+            list-style-type: none;
+            i{
+                font-size: 1.5rem;
+                color: white;
+            }
+            
+        }
+    }
+}
+.web-main-logo{
+    img{
+        transform: scale(2);
+    }
+}
+.index-page.scrolled .header {
+    i{
+        color: #E84545;
+    }
+}
