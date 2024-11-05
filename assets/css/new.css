@@ -18,4 +18,11 @@
 
 .index-page.scrolled .header i {
   color: #E84545;
+}
+
+@media only screen and (max-width: 576px) {
+  .hero img {
+    -o-object-fit: none;
+       object-fit: none;
+  }
 }/*# sourceMappingURL=new.css.map */

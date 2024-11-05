@@ -24,3 +24,11 @@
         color: #E84545;
     }
 }
+
+@media only screen and (max-width:576px){
+    .hero{
+        img{
+            object-fit: none;
+        }
+    }
+}
