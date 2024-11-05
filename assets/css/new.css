@@ -21,8 +21,47 @@
 }
 
 @media only screen and (max-width: 576px) {
+  header .social-media-icons {
+    display: none;
+  }
   .hero img {
     -o-object-fit: none;
        object-fit: none;
   }
+  .header {
+    padding: 0.5rem 0;
+  }
+  .web-main-logo img {
+    transform: none;
+  }
+  .hero {
+    max-height: 100%;
+  }
+  .hero .main-banner {
+    display: none;
+    height: 100vh;
+  }
+  .hero .main-banner-para {
+    font-size: 13px;
+  }
+}
+@media (min-width: 320px) and (max-width: 768px) {
+  .main-banner-desktop {
+    display: none !important;
+  }
+  .main-banner-mobile {
+    display: block !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 3000px) {
+  .main-banner-desktop {
+    display: block !important;
+  }
+  .main-banner-mobile {
+    display: none !important;
+  }
+}
+.text-on-slider{
+  position: absolute;
+  top: 0;
 }/*# sourceMappingURL=new.css.map */
